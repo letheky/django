@@ -6,7 +6,7 @@ on: [push, pull_request]
 jobs:
   test-lint:
     name: Test and test-lint
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Login to Dokcer Hub
         uses: docker/login-action@v1
